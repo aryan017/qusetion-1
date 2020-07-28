@@ -1,4 +1,4 @@
-# qusetion-1
+# qusetion-1-Java
 public class copyarray{
 
      public static void main(String []args){
