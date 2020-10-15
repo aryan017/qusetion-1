@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		Scanner input = new Scanner (System.in);
+		int num=input.nextInt();
+		num+=1;
+		while (num>0){
+		    int sum=0;
+		    String word=input.nextLine();
+		    char [] arr=new char[word.length()];
+		    for(int j=(word.length()-1);j>=0;j--){
+		        arr[sum]=word.charAt(j);
+		        sum+=1;
+		    }
+		    for(char e: arr){
+		        System.out.println(e);
+		    }
+		   num--;
+		}
+	}
+}
